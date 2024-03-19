@@ -250,7 +250,7 @@ def convert_examples_to_features(examples,
 
 
 def get_labels():
-    return ["O", "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC", "B-MISC", "I-MISC"]
+    return ["O", "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC"]
 
 
 def to_crf_pad(org_array, org_mask, pad_label_id=-100):
